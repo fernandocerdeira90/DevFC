@@ -1,0 +1,222 @@
+@import url('font-awesome.css');
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url("login.css");
+
+
+body{ 
+ font-family: 'PT Sans', sans-serif;
+
+}
+
+
+/**INPUTS*/
+
+.form-login input[type=text],.form-login input[type=password] {
+    margin: 5px;
+    padding: 0 10px;
+    width: 260px;
+    height: 34px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+ 
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    outline: 5px solid #eff4f7;
+    -moz-outline-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+
+
+  .form-login input[type=text]:focus,.form-login input[type=password]:focus {
+    border-color: #7dc9e2;
+    outline-color: #dceefc;
+    outline-offset: 0;
+  }
+
+
+input[type=submit] {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+
+}
+input[type=submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+input[type=submit]:hover {
+  background: #527881;
+  color: #cde5ef;
+
+}
+
+
+
+/**MODELO - VISTA*/
+
+#app-present #sectionLogin{
+  display: none;
+}
+
+
+
+#app-Login .showIfLogued{
+  display: none;
+}
+
+#app-SignUp .showIfLogued{
+  display: none;
+}
+
+
+#sectionComic{
+  margin-top: 10px;
+  background-color: #fff;
+  padding-bottom: 20px;
+
+}
+
+#app-present{
+    background-image:url('../images/128-184.jpg');background-repeat:repeat;
+    margin-bottom: 60px;
+
+}
+
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.row-search{
+    background: #B51821; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#9C141C, #B51821); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9C141C, #B51821); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9C141C, #B51821); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9C141C, #B51821); /* Standard syntax */
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    padding-top: 5px;
+
+}
+
+.row-comic{
+  margin: 10px;
+
+}
+
+.search-inline{
+  
+  text-align: right;
+
+}
+
+.inputSearch {
+   height: 25px; 
+   vertical-align: bottom;
+   color: #2F2F2F;
+    
+}
+
+.inputSearch:focus { 
+    border: 2px solid red;
+    border-color: #9C141C;
+    box-shadow: 0px 0px 5px #363333;
+}
+
+
+.textSearch{
+  color: white;  
+}
+
+
+.mainHeader{
+
+  margin-top: 62px;
+}
+
+
+.fixed-top{
+  position: fixed;
+  left: 5%;
+  top: 0;
+  right: 5%;
+  z-index: 1025;
+}
+
+.wrapper{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.article-comic-header{
+  background-color: #494949;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+
+}
+
+.article-comic-body{
+    background: #F3F3F2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F3F3F2, #DADAD8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F3F3F2, #DADAD8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F3F3F2, #DADAD8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F3F3F2, #DADAD8); /* Standard syntax */
+
+}
+
+.article-comic{
+  border: 1px solid #494949;
+  padding: -10px;
+}
+
+.article-image{
+  text-align: left!important;
+  float: left;
+}
+
+.article-recommended{
+  position: absolute;
+  left: 106px;
+  top: 120px;
+}
+
+.article-text{
+  padding-left: 5px;
+  color: #2F2F2F;
+}
+
+.article-comic-available{
+  color: green;
+}
+
+.article-comic-borrowed{
+  color: red;
+}
+

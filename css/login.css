@@ -1,0 +1,178 @@
+.form-login{
+
+
+    position: absolute;
+    width: 100%;
+    min-height: auto;
+    height:100%;
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+
+}
+
+.form-login-inner {
+  position: relative;
+  margin: 200px auto 0;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: white;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+
+
+
+}
+.form-login-inner:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+.form-login-inner h2 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+}
+.form-login-inner p {
+  margin: 20px 0 0;
+}
+.form-login-inner p:first-child {
+  margin-top: 0;
+}
+.form-login-inner input[type=text], .form-login-inner input[type=password] {
+  width: 278px;
+}
+.form-login-inner p.remember_me {
+  float: left;
+  line-height: 31px;
+}
+.form-login-inner p.remember_me label {
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+.form-login-inner p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.form-login-inner p.administrator label {
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+
+.form-login-error {
+  font-size: 11px!important;
+  color: red;
+  text-shadow: 0 1px #BB9292;
+  padding-left: 1px;
+  text-align: left!important;
+}
+
+
+
+
+.first-Login {
+  position: relative;
+  display: block;
+  margin: 10px auto;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  
+
+}
+
+.form-login-submit {
+  text-align: center;
+  float: right;
+}
+
+.first-Login a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+    position: relative;
+  margin: 200px auto 0;
+  padding: 5px 20px 5px;
+    
+    background: -webkit-linear-gradient(#D10000, #B51821); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D10000, #B51821); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D10000, #B51821); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D10000, #B51821); /* Standard syntax */
+}
+.first-Login a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background: black;
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}
+
+
+
+.successText{
+  color: green;
+  background-color: #c5f6c5;
+  border-radius: 3px;
+  margin: -20px -20px 0 -20px;
+  line-height: 35px;
+  padding-left: 20px;
+
+}
+
+.errorText{
+  color: red;
+  background-color: #ed9c9c;
+  border-radius: 3px;
+  margin: -20px -20px 0 -20px;
+  line-height: 35px;
+  padding-left: 20px;
+
+}
+
+#app-SignUp .showIfLogin{
+  display: none;
+
+}
+
+
+#app-Login .showIfRegistration{
+  display: none;
+
+}
